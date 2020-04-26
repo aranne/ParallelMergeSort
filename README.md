@@ -1,4 +1,4 @@
-# parallelMergeSort
+# Parallel Merge Sort
 
 An implementation of parallel merge sort using [ForkJoinPool](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ForkJoinPool.html).
 
