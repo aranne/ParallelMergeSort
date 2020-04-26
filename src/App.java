@@ -32,8 +32,12 @@ public class App {
         Parser parser = new Parser();
         LogTime[] times = parser.parse(logs);
 
+        long start = System.currentTimeMillis();
+
         ParallelMergeSort parallelMergeSort = new ParallelMergeSort(times, minSize, threads);
         parallelMergeSort.parallelMergeSort();
+
+        long end = System.currentTimeMillis();
 
         String[] res = new String[times.length];
         for (i = 0; i < times.length; i++) {
@@ -45,6 +49,8 @@ public class App {
         for (i = 0; i < res.length; i++) {
             System.out.println(res[i]);
         }
+
+        System.out.println("time: " + (end - start) + " ms");
 
     }
 }
