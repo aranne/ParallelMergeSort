@@ -3,7 +3,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
-import static org.junit.Assert.*;
 
 public class App {
     public static void main(String[] args) throws IOException {
@@ -42,8 +41,6 @@ public class App {
             int index = logTime.index;
             res[i] = logs[index];
         }
-
-        assertTrue("Not sorted yet", ParallelMergeSort.isSorted(times));
 
         for (i = 0; i < res.length; i++) {
             System.out.println(res[i]);
