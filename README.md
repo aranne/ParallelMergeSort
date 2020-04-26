@@ -4,7 +4,7 @@ An implementation of parallel merge sort using [ForkJoinPool](https://docs.oracl
 
 The goal is to sort the log files by date time.
 
-#### How to run
+### How to run
 
 * minSize: minimum size to fork a task into subtask.
 
@@ -14,7 +14,7 @@ To run parallel merge sort on syslog1Mb.log file with minSize = 10, threads = 4
 
 `java -jar ParallelMergeSort.jar syslog1Mb.log 10 4`
 
-#### Test cases
+### Test cases
 
 * test file: syslog1Mb.log
 * number of physical cores: 4
@@ -33,6 +33,6 @@ To run parallel merge sort on syslog1Mb.log file with minSize = 10, threads = 4
 |10       |16       |240        |
 |10       |32       |237        |
 
-#### Libraries
+### Libraries
 
 [org.joda.time.DateTime](https://www.joda.org/joda-time/)  -- To compare date time
