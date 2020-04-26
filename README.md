@@ -6,7 +6,11 @@ The goal is to sort the log files by date time.
 
 #### How to run
 
-To run merge sort on syslog1Mb.log file with misSize = 10, threads = 4
+* minSize: minimum size to fork a task into subtask.
+
+* threads: level of parallelism
+
+To run parallel merge sort on syslog1Mb.log file with minSize = 10, threads = 4
 
 `java -jar ParallelMergeSort.jar syslog1Mb.log 10 4`
 
