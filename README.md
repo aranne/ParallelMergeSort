@@ -8,7 +8,7 @@ The goal is to sort the log files by date time.
 
 To run merge sort on syslog1Mb.log file with misSize = 10, threads = 4
 
-`java -jar ParallelMergeSort.jar syslog1Mb.log 10 4`
+`./ParallelMergeSort syslog1Mb.log 10 4`
 
 #### Test cases
 
