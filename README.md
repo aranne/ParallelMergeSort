@@ -12,7 +12,7 @@ The goal is to sort the log files by date time.
 
 To run parallel merge sort on syslog1Mb.log file with minSize = 10, threads = 4
 
-`./ParallelMergeSort syslog1Mb.log 10 4`
+`./ParallelMergeSort syslog200k.log 10 4`
 
 ### Test cases
 
