@@ -10,7 +10,7 @@ The goal is to sort the log files by date time.
 
 * threads: level of parallelism
 
-To run parallel merge sort on syslog1Mb.log file with minSize = 10, threads = 4
+To run parallel merge sort on syslog200k.log file with minSize = 10, threads = 4
 
 `./ParallelMergeSort syslog200k.log 10 4`
 
